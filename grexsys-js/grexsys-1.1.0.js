@@ -7,6 +7,7 @@
 /*   */ 
 /*   */ 
 /* =========== Add Commmas =========== */
+/* This function adds a comma between first and second digit such as 1,000 and 1,000,000 */
 function addCommas(nStr)
 {
 	nStr += '';
@@ -20,6 +21,7 @@ function addCommas(nStr)
 	return x1 + x2;
 }
 /* =========== Format Phone Number =========== */
+/* This function formats a phone number */
 function formatPhone(obj) {
             var numbers = obj.value.replace(/\D/g, ''),
         	char = {0:'(',3:') ',6:' - '};
