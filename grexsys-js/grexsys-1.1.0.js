@@ -30,7 +30,3 @@ function formatPhone(obj) {
         	obj.value += (char[i]||'') + numbers[i];
     }
 }
-/* ========== Go Back History ============== */
-function goBack() {
-    window.history.go(-1);
-}
