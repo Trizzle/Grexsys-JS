@@ -3,4 +3,4 @@ Grexsys JS is a few useful JavaScript functions that I use often on different si
 
 It will grow over time.  Feel free to add useful snippets if they will help someone.
 
-Use this link <script src="https://cdn.rawgit.com/Trizzle/Grexsys-JS/master/grexsys-js/grexsys-1.1.0.js"></script>
+Use this link ## <script src="https://cdn.rawgit.com/Trizzle/Grexsys-JS/master/grexsys-js/grexsys-1.1.0.js"></script> ##
