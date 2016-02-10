@@ -30,3 +30,9 @@ function formatPhone(obj) {
         	obj.value += (char[i]||'') + numbers[i];
     }
 }
+
+/* This function is to create a go back link */
+function goBack() {
+  window.history.back()
+}
+/* =========== End go back function =========== */
