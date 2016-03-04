@@ -36,3 +36,22 @@ function goBack() {
   window.history.back()
 }
 /* =========== End go back function =========== */
+function verifyPassMatch(){
+
+var PassOne = document.getElementById("uPass");
+var PassTwo = document.getElementById("vPass");
+
+if (PassOne.length < 6){
+alert("Password must be at least 6 characters long");
+}
+
+else if (PassOne === PassTwo) {
+alert("Passwords do not match");
+}
+
+else {
+
+}
+
+}
+/* ===========  ================ */
