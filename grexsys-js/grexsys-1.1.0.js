@@ -38,8 +38,8 @@ function goBack() {
 /* =========== End go back function =========== */
 function verifyPassMatch(){
 
-var PassOne = document.getElementById("uPass");
-var PassTwo = document.getElementById("vPass");
+var PassOne = document.getElementById("uPass").value;
+var PassTwo = document.getElementById("vPass").value;
 
 if (PassOne.length < 6){
 alert("Password must be at least 6 characters long");
